@@ -1,0 +1,10 @@
+div{
+    background-color: rgb(189, 120, 185);
+    height: 100vh;
+}
+
+h2{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+}

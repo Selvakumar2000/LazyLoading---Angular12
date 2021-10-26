@@ -1,0 +1,36 @@
+<div *ngIf="member">
+    <h3 class="text-bold">WELCOME {{member.username | uppercase}}</h3>
+<div class="container">
+    <div class="row">
+        <div class="col-4">
+            <div class="card">
+                <img src="{{member.photoUrl || './assets/user.png'}}" alt="{{member.knownAs}}"
+                class="card-img-top img-thumbnail">
+                <div class="card-body">
+                    <div>
+                        <strong>Username:</strong>
+                        <p>{{member.username | titlecase}}</p>
+                    </div>
+                    <div>
+                        <strong>Location:</strong>
+                        <p>{{member.city}} , {{member.country}}</p>
+                    </div>
+                    <div>
+                        <strong>Age:</strong>
+                        <p>{{member.age}}</p>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-success">Like</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <button class="btn btn-primary" routerLink=''>Back</button>
+    </div>
+</div>
+
+</div>

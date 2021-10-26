@@ -1,0 +1,29 @@
+.container{
+    margin-left: 450PX;
+}  
+
+.img-thumbnail{
+    margin-left: 70px;
+    margin-top: 6px;
+    width: 60%;
+    height: 60%;
+}
+h1{
+    color: white;
+}
+h4{
+    color: antiquewhite;
+}
+.para{
+    color: rgb(184, 184, 178);
+}
+
+.btn-success{
+    margin-left: 60px;
+    width: 60%;
+}
+
+.btn-primary{
+    margin-left: 830px;
+    width: 100px;
+}
